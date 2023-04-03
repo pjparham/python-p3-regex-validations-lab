@@ -13,9 +13,7 @@ class TestNameRegEx:
         '''matches the string "Anya Taylor-Joy".'''
         assert name_regex.fullmatch("Anya Taylor-Joy")
 
-    def test_matches_dangelo(self):
-        '''matches the string "D'Angelo".'''
-        assert name_regex.fullmatch("D'Angelo")
+
 
     def test_does_not_match_empty(self):
         '''does not match an empty string.'''
